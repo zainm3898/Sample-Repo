@@ -1,5 +1,13 @@
-condition = True
-if condition == True:
-    print("true")
+# from ast import And
+# from pickle import FALSE
+
+
+condition = False
+login = True
+
+if condition and login:
+    print("admin page")
+elif condition == False and login == True:
+    print("Login is true but coondotion is false")
 else:
-    print("false")
+    print("both are not true")

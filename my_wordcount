@@ -1,0 +1,16 @@
+def word_count():
+  with open("list11.txt",'r') as rf:
+    with open('lis11.txt','w') as wf:
+     list_1=[]
+     for n in rf:
+        data = n.split()
+        #print(data)
+        list_1.extend(data)
+  dict={}
+  for n in list_1:
+    count=list_1.count(n)
+    #print(n)
+    #rint(count)
+    dict[n]=count
+  return dict      
+print(word_count())

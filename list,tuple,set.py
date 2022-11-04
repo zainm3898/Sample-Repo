@@ -29,15 +29,15 @@ list_1 = "-".join(list_1)
 # print(list_1)
 # print(list_1.split("-"))
 tuple_1 = (1, 2, 3, 4, 5)
-tuple_2 = (6, 7, 8, 9, 10)
+tuple_2 = (6, 7, 8, 9, 10,1)
 tuple_1 = tuple_2
 print(tuple_1, tuple_2)
 list_1 = list_2
-print(list_1, list_2)
+#print(list_1, list_2)
 list_2.append("friday")
 print(list_1, list_2)
 # tuple_2.insert(10)
-print(tuple_1, tuple_2)
+#print(tuple_1, tuple_2)
 set_1 = {1, 2, 5, 4}
 set_2 = {5, 6, 7, 8}
-print(set_1.intersection(set_2))
+#print(set_1.intersection(set_2))
